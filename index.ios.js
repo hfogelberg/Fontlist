@@ -22,7 +22,7 @@ class FontList extends Component {
   render() {
     return (
       <Container>
-        <Content style={{marginTop: 70, marginLeft: 20, marginRight: 20}}>
+        <Content style={{marginTop: 20, marginLeft: 20, marginRight: 20}}>
           <List>
             {this.renderFonts()}
           </List>
